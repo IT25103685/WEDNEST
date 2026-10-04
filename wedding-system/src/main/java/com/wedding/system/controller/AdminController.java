@@ -12,8 +12,9 @@ import javax.servlet.http.HttpSession;
 
 /**
  * Admin dashboard: create/deactivate wedding halls, and see a high-level
- * summary of bookings/revenue/occupancy across the whole hotel.
+ * summary of bookings/revenue/occupancy across the whole hotel. 
  */
+
 @Controller
 @RequestMapping("/admin")
 public class AdminController {
